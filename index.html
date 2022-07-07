@@ -20,7 +20,16 @@
             }
 
             p{
-                font-size: 14px;
+                font-size: 20px;
+                font-family: sans-serif;
+                text-align: justify;
+                text-indent: 2px;
+                text-decoration-style: double;
+                color: aliceblue;
+            }
+
+            button{
+                background-color: steelblue;
             }
 
             input{
@@ -32,10 +41,75 @@
                 margin: 20px;
 
             }
+
+            .Menu{
+                overflow: hidden;
+                background-color: black;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                padding: 5px 20px;
+
+            }
+
+            .Menu a{
+                float:left;
+                display: block;
+                color: aqua;
+                text-align: center;
+                padding 20px;
+                text-decoration:none;
+            }
+
+            .menu a:hover{
+                background-color:black;
+                color: black;
+            }
+
+            .Lado{
+                margin-top: 40px;
+                margin-bottom: 5px;
+            }
+
+            a{
+                padding: 2px 100px;
+            }
+
+           .rodapé{
+            border-radius: 50%;
+            padding: 10px;
+            
+
+           }
+
+           footer{
+            display: flex;
+            font-size: 20px;
+            background-color:teal;
+            border: 1px;
+            border-color: black;
+            border-style:dashed;
+            border-width: 2px;
+            padding: 5px 600px 5px 50px;
+            margin: 10px 200px 0px 100px;
+         
+           
+
+           }
         </style>
     </head>
 
         <body>
+
+            <div class="Menu">
+                <a href="./index.html"> Página Principal   </a>
+                <a href="https://veja.abril.com.br/noticias-sobre/animacao/"> Noticias   </a>
+                <a href="./contato.html">  Contato  </a>
+               </div>
+               <div class="Lado">
+                <p>Olá você quer conhecer mais sobre desenhos?</p>
+
+               </div>
             <h1>Semana 1</h1>
             <hr>
             <p>Este é o resultado do primeiro exercício<br>da primeira semana<br>do curso DEVinHouse</p>
@@ -47,12 +121,18 @@
                 </button>
                 </a>
                </form>
-                
+                <h2>Olhe este vídeo!</h2>
                <iframe width="560" height="315" src="https://www.youtube.com/embed/U-m2srFKwmA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                <label>
                 <p> Esse é um vídeo de abertura de um desenho antigo!</p>
                </label>
                
+               <footer >
+                <img class="rodapé" src="./IMG_3093.jpg" width="100px">
+                <p>Sou a criadora desta página, meu nome Giulia Kirinus sou brasileira e tenho 24 anos</p>
+               </footer>
+              
+
          </body>
     
 </html>
