@@ -1,0 +1,45 @@
+
+#botao{
+    background-color: aqua;
+    color: black;
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    border-style: dashed;
+    border-width: 1px;
+    margin-top: 10px;
+
+
+
+
+}
+
+#mensagem{
+    background-color: antiquewhite;
+    border-radius: 30%;
+    width: 150px;
+    height: 30px;
+
+}
+
+#botao2{
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    height: 50px;
+    width: 100px;
+  
+}
+
+#botao3{
+    background-color: green;
+    color: black;
+    border-radius: 30%;
+    height: 50px;
+    width: 80px;
+}
+
+
+
+
+
