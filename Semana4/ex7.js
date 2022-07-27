@@ -27,7 +27,8 @@ let arrayAlunos = [
         } else{
            if(item.media < 7){
 
-            document.write(item.nome+ " "  + "Infelizmente você não atingiu a média" + "<br/>" );
+            document.write(item.nome+ " "  + "Infelizmente você não atingiu a média" + " " + "faltaram" + " " + (7-item.media) + " " + "pontos para você atingir a média" + "<br/>");
+
         }
         
     }
