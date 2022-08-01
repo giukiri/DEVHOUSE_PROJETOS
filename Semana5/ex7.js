@@ -1,7 +1,7 @@
 
 import criarTabela from './ex7p2.js' 
 
-let botao = document.getElementById('botao');
+const cadastro = document.getElementById('cadastro')
 const card = document.getElementById('card')
 const nome = document.getElementById('nome')
 const imagem = document.getElementById('imagem')
@@ -14,7 +14,7 @@ const descricao = document.getElementById('descricao')
 
 let usuario  = {};
 
-botao.addEventListener('submit', () =>{
+cadastro.addEventListener('submit', () =>{
 
     const nomePos = nome.value;
      const imagemPos = imagem.value; 
