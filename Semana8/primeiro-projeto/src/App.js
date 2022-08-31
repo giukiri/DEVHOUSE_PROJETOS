@@ -1,43 +1,21 @@
 
 import './App.css';
-import ControleRefrigerantes from './componentes/controle';
-// import Titulo from './componentes/titulo';
-// import Texto from './componentes/texto';
-// // import Soma from './componentes/soma';
-// import Btn from './componentes/botao';
-import Post from './componentes/post';
+import ListaContatos from './componentes/listacontatos';
 
+export default function App () {
 
-
-
-export default function App ({isLoading}) {
-
-  const tiposDeRefrigerantes = ['coca-cola','fanta'];
-
-  if(isLoading){
-    return <p>Carregando...</p>
-  }
+  const contatosDisponiveis = [
+    { name: '1' ,photo:'ma', description: 1 , id: 1},
+    { name: 2, photo: 'bla', description: 2 , id: 2},
+    { name: 3, photo:'blah', description: 3 , id:3},
+  ];
 
   return (
-  
-  <div >
-    {/* <Titulo />
-    <Texto />
-    <p style={{backgroundColor : "white"}}>Texto a mais</p>
+    <>
 
-    {/* <Soma  
-    num1 =  {window.prompt ( " digite o primeiro numero a ser somado ") }
-    num2 =  {window.prompt ("digite o segundo numero a ser somado ")  }
-    /> */}
-
-    {/* <Post fotoPerfil="https://i.pinimg.com/originals/1d/4d/69/1d4d69c694c8ba1034c0e9552f457ecf.jpg"
-          nomeUsuario={'Stitch'}
-          tempoDePost = "5 minutos"
-          textoDescricao={'blablablablbablalbalballablballbalbl'}
-    /> */}
-   <ControleRefrigerantes listaDeRefris={tiposDeRefrigerantes}/>
-
-  </div>
+    <ListaContatos listaDeContatos= {contatosDisponiveis} />
+    </>
   );
-}
 
+}
+ 
