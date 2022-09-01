@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.card{
+    width: 1000px;
+   
+}
+
+.foto{
+    width: 120px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.title{
+    text-align: center;
+    display: flex;
+   
+   
+}
