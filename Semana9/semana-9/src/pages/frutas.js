@@ -3,19 +3,28 @@ import React, {useEffect, useState} from 'react'
 
 function Frutas() {
 
+    function cadastrarFruta (){
 
-    const [frutas , setFrutas] = useState('');
+         console.log({frutas})
+    }
+
+  
+    const [frutas , setFrutas] = useState();
 
     useEffect (()=>{
+       
 
     }, [frutas])
 
     useEffect(()=>{
         return () => {
             
+            
+            
         }
     })
   
+   
 
   return (
     
@@ -23,9 +32,16 @@ function Frutas() {
 
         <p>Frutas:</p>
 
-        <span>{frutas}</span>
+        <span></span>
+    <div>
+        <input value={frutas} onChange={(e)=>setFrutas(e.target.value)} />
+            <input type='submit' onClick={cadastrarFruta}></input>
 
-        <input value={frutas} onChange={(e)=>setFrutas(e.target.value)}></input>
+   
+        
+       
+    </div>
+        
 
 
 
