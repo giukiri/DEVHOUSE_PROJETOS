@@ -5,7 +5,8 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import Frutas from './pages/frutas';
 // import Contar from './pages/botao';
-import MudarTitulo from './pages/ex4';
+// import MudarTitulo from './pages/ex4';
+import Focar from './pages/ex5';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,7 +14,8 @@ root.render(
     {/* <App /> */}
     {/* <Frutas /> */}
     {/* <Contar /> */}
-    <MudarTitulo />
+    {/* <MudarTitulo /> */}
+    <Focar />
   </React.StrictMode>
 );
 
