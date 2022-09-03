@@ -2,7 +2,7 @@
 const Texto = () => {
     return (
         
-            <p>
+            <p > 
                 Criar um projeto react é muito facil </p>
         )
 }
