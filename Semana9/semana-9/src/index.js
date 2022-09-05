@@ -9,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 // import Focar from './pages/ex5';
 // import Exercicio6 from './pages/ex6';
 // import DownloadBarra from './pages/barra';
-import DownloadBarra2 from './pages/barraex8';
+// import DownloadBarra2 from './pages/barraex8';
+// import Exercicio9 from './pages/ex9';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -21,7 +22,8 @@ root.render(
     {/* <Focar /> */}
     {/* <Exercicio6 /> */}
     {/* <DownloadBarra /> */}
-    <DownloadBarra2 />
+    {/* <DownloadBarra2 /> */}
+    {/* <Exercicio9 /> */}
    
   </React.StrictMode>
 );
