@@ -1,6 +1,6 @@
 
 import './App.css';
-import Projeto from './pages/home';
+import Projeto from './pages/home.js';
 
 function App() {
   return (
