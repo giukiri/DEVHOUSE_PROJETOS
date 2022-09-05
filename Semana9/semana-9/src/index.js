@@ -11,6 +11,7 @@ import reportWebVitals from './reportWebVitals';
 // import DownloadBarra from './pages/barra';
 // import DownloadBarra2 from './pages/barraex8';
 // import Exercicio9 from './pages/ex9';
+import Exercicio10 from './pages/ex10';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -24,6 +25,7 @@ root.render(
     {/* <DownloadBarra /> */}
     {/* <DownloadBarra2 /> */}
     {/* <Exercicio9 /> */}
+    <Exercicio10 />
    
   </React.StrictMode>
 );
