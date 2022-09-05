@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 // import MudarTitulo from './pages/ex4';
 // import Focar from './pages/ex5';
 // import Exercicio6 from './pages/ex6';
-import DownloadBarra from './pages/barra';
+// import DownloadBarra from './pages/barra';
+import DownloadBarra2 from './pages/barraex8';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,9 @@ root.render(
     {/* <MudarTitulo /> */}
     {/* <Focar /> */}
     {/* <Exercicio6 /> */}
-    <DownloadBarra />
+    {/* <DownloadBarra /> */}
+    <DownloadBarra2 />
+   
   </React.StrictMode>
 );
 
